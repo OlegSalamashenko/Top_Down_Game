@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5816035250145752578}
   - component: {fileID: 7592612074417022238}
   - component: {fileID: 2562819693093149241}
+  - component: {fileID: 3466723549958352266}
   m_Layer: 0
   m_Name: Blue_Slime
   m_TagString: Untagged
@@ -197,3 +198,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3466723549958352266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5078039492421817871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cd4a90831a8c34682a316beb2c81d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
