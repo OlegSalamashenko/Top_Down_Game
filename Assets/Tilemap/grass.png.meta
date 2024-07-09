@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7408dfed1929c56499e7ccef6b47e501
-      internalID: -218240791
+      spriteID: bb58ed2bd492fb748aadac3e52b46245
+      internalID: 1593748255
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      grass_0: -218240791
+      grass_0: 1593748255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
