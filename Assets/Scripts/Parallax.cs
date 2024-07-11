@@ -12,7 +12,7 @@ public class Parallax : MonoBehaviour
 
     private void Awake()
     {
-        cam = GetComponent<Camera>();
+        cam = Camera.main;
     }
     private void Start()
     {
