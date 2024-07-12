@@ -13584,7 +13584,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 638415115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 955b5d5f6a3a9124a9b4184c9bd5644a, type: 3}
+  m_Script: {fileID: 11500000, guid: ea6c24f0866058c4eaf1936a6ecbb866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &650821671
@@ -21650,6 +21650,14 @@ PrefabInstance:
     - target: {fileID: 2259787401318720534, guid: 515b1c06a85737d43942c48c772f5c93, type: 3}
       propertyPath: m_Name
       value: AreaExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2963851758119475102, guid: 515b1c06a85737d43942c48c772f5c93, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3736168760269925781, guid: 515b1c06a85737d43942c48c772f5c93, type: 3}
+      propertyPath: sceneToLoad
+      value: Scenes 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
