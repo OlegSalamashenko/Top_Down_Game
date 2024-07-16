@@ -121,5 +121,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashAnimPrefab: {fileID: 2595341643819259811, guid: e75d98fcfab299b47ba7e55b5503650a, type: 3}
   slashAnimSpawnPoint: {fileID: 0}
-  weaponCollider: {fileID: 0}
   swordAttackCD: 0.5
+  weaponInfo: {fileID: 11400000, guid: 992d5639a976ba34287f821c8b050f77, type: 2}

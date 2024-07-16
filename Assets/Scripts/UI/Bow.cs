@@ -4,31 +4,14 @@ using UnityEngine;
 
 public class Bow : MonoBehaviour , IWeapon
 {
-    private void Update()                          
-    {
-        MouseFollowWithOffset();                    //
-    }
+    [SerializeField] private WeaponInfo weaponInfo;
     public void Attack()
     {
         Debug.Log("Bow Attack");
-        ActiveWeapon.Instance.ToggleIsAttacking(false);
     }
-    private void MouseFollowWithOffset()            //
+    public WeaponInfo GetWeaponInfo()
     {
-        Vector3 mousePos = Input.mousePosition;
-        Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(PlayerController.Instance.transform.position);
-
-        Vector3 direction = mousePos - playerScreenPoint;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-
-        if (PlayerController.Instance.FacingLeft)
-        {
-            ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, -180f, -angle + 180);
-        }
-        else
-        {
-            ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, 0, angle);
-        }
+        return weaponInfo;
     }
+   
 }
