@@ -18473,9 +18473,6 @@ GameObject:
   - component: {fileID: 692652772}
   - component: {fileID: 692652773}
   - component: {fileID: 692652774}
-  - component: {fileID: 692652775}
-  - component: {fileID: 692652777}
-  - component: {fileID: 692652776}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -18664,48 +18661,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
---- !u!114 &692652775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 692652767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7403567e9ecac6d4b8a20f4e19ddb0a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 3
-  knockBackTrustAmount: 10
-  damageRecoveryTime: 1
---- !u!114 &692652776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 692652767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 667886bbb9f9b834486eb58e3eb7e455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  knockBackTime: 0.1
---- !u!114 &692652777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 692652767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb4f6467f1b49d43b3410eb346297b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whiteFlashMat: {fileID: 2100000, guid: 44dc515b105f82d4b8760238aa24144a, type: 2}
-  restoreDefaultMatTime: 0.2
 --- !u!1001 &695786037
 PrefabInstance:
   m_ObjectHideFlags: 0
