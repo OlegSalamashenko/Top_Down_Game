@@ -124,8 +124,8 @@ public class Shooter : MonoBehaviour, IEnemy
 
     private Vector2 FindBulletSpawnPos(float currentAngle)
     {
-        float x = transform.position.x + startingDistance * Mathf.Cos(currentAngle * Mathf.Rad2Deg);
-        float y = transform.position.y + startingDistance * Mathf.Sin(currentAngle * Mathf.Rad2Deg);
+        float x = transform.position.x + startingDistance * Mathf.Cos(currentAngle * Mathf.Deg2Rad);
+        float y = transform.position.y + startingDistance * Mathf.Sin(currentAngle * Mathf.Deg2Rad);
 
         Vector2 pos = new Vector2(x, y);
 
