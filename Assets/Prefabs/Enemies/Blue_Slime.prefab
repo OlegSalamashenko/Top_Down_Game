@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3466723549958352266}
   - component: {fileID: 3054485894663800320}
   - component: {fileID: -3600880652503103184}
+  - component: {fileID: -94616831510707945}
   m_Layer: 0
   m_Name: Blue_Slime
   m_TagString: Untagged
@@ -166,6 +167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de1ae23935bf9044949b640534e7a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roamChangeDirFloat: 2
+  attackRange: 5
+  enemyType: {fileID: 0}
+  attackCooldown: 2
+  stopMovingWhileAttacking: 0
 --- !u!114 &7592612074417022238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 3
   deathVFXPrefab: {fileID: 3773367566464072798, guid: 0ab5dbb73aac3d4408264fd238313d7c, type: 3}
+  knockBackThrust: 15
 --- !u!114 &3054485894663800320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,3 +248,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlashMat: {fileID: 2100000, guid: 44dc515b105f82d4b8760238aa24144a, type: 2}
   restoreDefaultMatTime: 0.2
+--- !u!114 &-94616831510707945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5078039492421817871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941cbed93af5af443bfde40494721272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 8601900056978616500, guid: a08ca0d0a59fc634a85e6482b3264bca, type: 3}
+  healthGlobe: {fileID: 8601900056978616500, guid: 8a36745f01210f54c966fbb043482a51, type: 3}
+  staminaGlobe: {fileID: 8601900056978616500, guid: 882715b196a4bed48938fe0ea20ebac8, type: 3}

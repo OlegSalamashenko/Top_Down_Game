@@ -104,13 +104,14 @@ GameObject:
   - component: {fileID: 8492326445027109286}
   - component: {fileID: 787620483346000261}
   - component: {fileID: 6427984114773487856}
+  - component: {fileID: -2124680866182829983}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3823123971893124039
 Transform:
   m_ObjectHideFlags: 0
@@ -257,7 +258,7 @@ MonoBehaviour:
   attackRange: 5
   enemyType: {fileID: 787620483346000261}
   attackCooldown: 2
-  stopMovingWhileAttacking: 1
+  stopMovingWhileAttacking: 0
 --- !u!114 &4573306790526883222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,3 +360,18 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &-2124680866182829983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248640143083670158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941cbed93af5af443bfde40494721272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 8601900056978616500, guid: a08ca0d0a59fc634a85e6482b3264bca, type: 3}
+  healthGlobe: {fileID: 8601900056978616500, guid: 8a36745f01210f54c966fbb043482a51, type: 3}
+  staminaGlobe: {fileID: 8601900056978616500, guid: 882715b196a4bed48938fe0ea20ebac8, type: 3}
