@@ -9,6 +9,7 @@ public class GrapeProjectile : MonoBehaviour
     [SerializeField] private AnimationCurve animCurve;
     [SerializeField] private float heightY = 3f;
     [SerializeField] private GameObject grapePtojectileShadow;
+    [SerializeField] private GameObject splatterPrefab;
 
     private void Start()
     {
@@ -38,7 +39,7 @@ public class GrapeProjectile : MonoBehaviour
 
             yield return null;
         }
-
+        Instantiate(splatterPrefab,transform.position,Quaternion.identity);
         Destroy(gameObject);
     }
 

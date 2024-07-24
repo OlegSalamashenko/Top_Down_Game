@@ -18624,7 +18624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  deathVFXPrefab: {fileID: 3773367566464072798, guid: 0ab5dbb73aac3d4408264fd238313d7c, type: 3}
+  deathVFXPrefab: {fileID: 3773367566464072798, guid: bfa9f46cfa4afb14b9d2d897a840d958, type: 3}
   knockBackThrust: 15
 --- !u!212 &1999739512712934170
 SpriteRenderer:
