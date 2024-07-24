@@ -98,6 +98,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea8bc0cfca277b041ad8599167804f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3624051029591512426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7562620841045647871}
+  - component: {fileID: 5396588311443873737}
+  m_Layer: 0
+  m_Name: Economy Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7562620841045647871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624051029591512426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3344377233883191425}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5396588311443873737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624051029591512426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd43675af86680946ae5d4ae10266365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4355618496115793316
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +219,7 @@ Transform:
   - {fileID: 3159211369736023024}
   - {fileID: 2301234656239764623}
   - {fileID: 914044765173417448}
+  - {fileID: 7562620841045647871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3887506643693366980
