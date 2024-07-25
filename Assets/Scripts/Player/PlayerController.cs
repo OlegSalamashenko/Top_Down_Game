@@ -27,7 +27,7 @@ public class PlayerController : Singleton<PlayerController>
     private bool isDashing = false;
 
 
-    private void Awake()
+    protected override void Awake()
     {
         base.Awake();
         playerControls = new PlayerControls();
@@ -42,11 +42,17 @@ public class PlayerController : Singleton<PlayerController>
         playerControls.Combat.Dash.performed += _ => Dash();
 
         startingMoveSpeed = moveSpeed;
+
+        ActiveInventory.Instance.EquipStartingWeapon();
     }
 
     private void OnEnable()
     {
         playerControls.Enable();
+    }
+    private void OnDisable()
+    {
+        playerControls.Disable();
     }
 
     private void Update()
@@ -74,7 +80,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Move()
     {
-        if (knockback.GettingKnockBack) { return; }
+        if (knockback.GettingKnockBack || PlayerHealth.Instance.isDead) { return; }
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
     private void AdjustPlayerFacingDirection()
